@@ -16,7 +16,7 @@ A CLI tool for Effortless Local Laravel Development with Automatic SSL for Linux
 
 ## 🛠 Installation
 
-> :warning: **Warning**: Only Debian based distributions (Ubuntu, Debian, Mint, etc.) is supported for now.
+> :warning: **Warning**: Only Debian based distributions (Ubuntu, Debian, Mint, etc.) are supported for now.
 
 ### Prerequisites
 
