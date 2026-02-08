@@ -10,7 +10,7 @@ A CLI tool for Effortless Local Laravel Development with Automatic SSL for Linux
 - 🔧 **Command Line Mode** - Pass arguments directly for scripting
 - 🖥️ **Multi-Server Support** - Works with both Apache and Nginx
 - 🔒 **Automatic SSL** - Self-signed certificates trusted by your browser via mkcert
-- 🔐 **Smart Permissions** - Sets proper ownership and permissions
+- 🔐 **Smart Permissions** - Sets proper permissions using ACL
 
 ---
 
@@ -111,7 +111,7 @@ Laraserve streamlines local development by automating:
 
    - Creates optimized virtual host configs
    - Handles both HTTP and HTTPS
-   - Sets proper document root and permissions
+   - Sets proper permissions using ACL
 
 2. **SSL Setup**
 
