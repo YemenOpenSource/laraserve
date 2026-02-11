@@ -1,7 +1,7 @@
 {
   "name": "laraserve",
-  "version": "1.0.1",
-  "description": "A CLI tool for Effortless Local Laravel Development with Automatic SSL for Linux.",
+  "version": "2.0.0",
+  "description": "Cross-platform CLI tool for Effortless Local Laravel Development with Automatic SSL.",
   "main": "index.js",
   "bin": {
     "laraserve": "./bin/laraserve.js"
@@ -17,7 +17,11 @@
     "mkcert",
     "local-development",
     "web-server",
-    "development"
+    "development",
+    "cross-platform",
+    "macos",
+    "windows",
+    "linux"
   ],
   "author": {
     "name": "Omar Anwar",
@@ -36,10 +40,13 @@
     "node": ">=18.0.0"
   },
   "os": [
-    "linux"
+    "darwin",
+    "linux",
+    "win32"
   ],
   "dependencies": {
     "inquirer": "^9.2.0",
-    "minimist": "^1.2.8"
+    "minimist": "^1.2.8",
+    "ora": "^9.3.0"
   }
 }
